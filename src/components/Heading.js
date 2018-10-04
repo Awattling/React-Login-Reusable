@@ -11,12 +11,12 @@ export class Heading extends React.Component {
                 </div>*/}
                 <div className={style.row}>
                     <div className={style.textTop}>
-                        Bhadrak Autonomus Collage
+                        Generic Name
                     </div>
                 </div>
                 <div className={style.row}>
                     <div className={style.textBot}>
-                        ~~Physics Society~~
+                        Generic sub heading
                     </div>
                 </div>
             </div>
