@@ -1,0 +1,17 @@
+.container{
+    composes: container from global;
+    padding-top: 3rem;
+    min-height: 100%;
+    min-width: 100%;
+    background-image: linear-gradient(darkblue, silver) ;
+    /*background-image: url("../media/back2.jpg");
+    background-size: cover;
+    background-color: lightblue; /* In the event the image fails to load */
+
+}
+.row{
+    composes: row from global;
+}
+.wrapper{
+    composes: col-12 col-md-10 offset-md-1 from global;
+}

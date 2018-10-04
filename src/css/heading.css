@@ -1,0 +1,21 @@
+.logoCont{
+    composes: col-2 offset-5 from global;
+}
+.logo{
+    width: 100%;
+}
+.row{
+    composes: row from global;
+    color: white;
+}
+.textTop{
+    composes: col from global;
+    padding-top: 3rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.textBot{
+    composes: col from global;
+    font-size: 2rem;
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+.main{
+    composes: col-12 col-md-4 offset-md-4 from global;
+    background-color: white;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+.loginHead{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-bottom: gray 1px solid;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.frRow{
+    composes: form-group row from global;
+}
+.btnRow{
+    composes: form-row from global;
+    display: block;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.fc{
+    composes: form-control from global;
+}
+.btn{
+    composes: btn btn-success btn-lg from global;
+}
+.forgot{
+    text-align: right;
+    color: blue;
+    padding-bottom: 0.2rem;
+}
+.forgot:hover{
+    color: purple;
+}
+.fcRow{
+    composes: form-check from global
+}
+.create{
+    composes: col-12 col-md-4 offset-md-4 from global;
+    font-size: 1.5rem;
+    color: darkorange;
+    text-align: center;
+    padding-top: 2rem;
+}
+.create:hover{
+    color: purple;
+}
