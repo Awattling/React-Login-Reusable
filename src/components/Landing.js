@@ -43,7 +43,7 @@ export class Landing extends React.Component {
 
     if (position === 'signUp') return <SignUp submitMethod={this.createNewUser} switch={this.changePosition} />
     if (position === 'signIn') return <SignIn submitMethod={this.login} switch={this.changePosition} />
-    if (position === 'forgot') return <Forgot submitMethod={this.resetUser} />
+    if (position === 'forgot') return <Forgot submitMethod={this.resetUser} switch={this.changePosition} />
   }
 
   render() {
