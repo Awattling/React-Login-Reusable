@@ -2,7 +2,7 @@ import React from 'react'
 
 import style from '../css/Sign.css'
 
-const Forgot = ({ submitMethod }) => (
+const Forgot = ({ switch: switchComponent, submitMethod }) => (
   <div>
     <div className={style.main}>
       <div className={style.loginHead}>Recover Password</div>
@@ -33,6 +33,9 @@ const Forgot = ({ submitMethod }) => (
             {' '}
             Confirm
           </button>
+        </div>
+        <div className={style.forgot} onClick={() => switchComponent('signIn')}>
+          Back
         </div>
       </form>
     </div>
