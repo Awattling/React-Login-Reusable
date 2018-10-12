@@ -21,7 +21,12 @@ Goals of this Project:
 - Provide examples of how to use all the features and integrations for those just starting. 
 
 
-#Open to contributions: 
+## Open to contributions: 
+This project requires that you have [Node JS](https://www.nodejs.org) installed locally. With **NPM** or [Yarn](https://yarnpkg.com/) installed as a package manager for the project dependancies, and to run the project locally. Node Package Manager or **NPM** is included with **Node JS**. 
+
+To test this type the command `npm --version` or `npm -v` from the command line.
+If you **are using Yarn** please remember to delete the `package-lock.json` file before initializing **Yarn**
+
 - Fork repo
     - Button on top
 - clone to local machine
@@ -30,6 +35,9 @@ Goals of this Project:
     - cd React-Login-Reusable
 - make new branch 
     - git checkout -b newBranchName
+- Use NPM or Yarn to install dependancies 
+    - `npm install --save` or `yarn`
+    - On Mac or Linux this may require the `sudo` command first
 - Make changes to code
 - Add changes 
     - git add -A
