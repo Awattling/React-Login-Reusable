@@ -25,7 +25,7 @@ Goals of this Project:
 This project requires that you have [Node JS](https://www.nodejs.org) installed locally. With **NPM** or [Yarn](https://yarnpkg.com/) installed as a package manager for the project dependancies, and to run the project locally. Node Package Manager or **NPM** is included with **Node JS**. 
 
 To test this type the command `npm --version` or `npm -v` from the command line.
-If you **are using Yarn** please remember to delete the `package-lock.json` file before initializing **Yarn**
+If you **are using Yarn** please remember to delete the `package-lock.json` file before initializing **Yarn**. *Also please do not commit your `yarn.lock` file.*
 
 - Fork repo
     - Button on top
@@ -51,4 +51,4 @@ If you **are using Yarn** please remember to delete the `package-lock.json` file
 - There are repositories similar to this out there but most have not been updated for some time. 
 2ish years. With the ever changing scope of the webstack (ReactRouter v4, Bootstrap4, etc) It's
 important to have modern versions out there for people to use and reference. Plus this aims to be 
-better in alot of other aspects from what's out there. 
+better in a lot of other aspects from what's out there. 
